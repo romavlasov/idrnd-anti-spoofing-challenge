@@ -2,4 +2,6 @@
 
 Train model: <code>python train.py --config 'configuration file'</code>
 
-Final solution is based on ensemble of two models se_resnext50 (se_resnext50_bce.yaml) and densnet121 (densnet121_bce.yaml)
+Final solution is based on ensemble of two models: se_resnext50 and densnet121. 
+
+The following configs are used to train this models: [se_resnext50_bce.yaml](https://github.com/romavlasov/idrnd-anti-spoofing-challenge/blob/master/config/se_resnext50_bce.yaml) and [densnet121_bce.yaml](https://github.com/romavlasov/idrnd-anti-spoofing-challenge/blob/master/config/densenet121_bce.yaml)
