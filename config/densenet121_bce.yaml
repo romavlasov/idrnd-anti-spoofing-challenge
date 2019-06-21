@@ -1,0 +1,30 @@
+prefix: 'densenet121_bce'
+parallel: yes
+save_freq: 1
+num_workers: 4
+
+encoder: 'densenet121'
+input_size: 1080
+out_features: 1
+pretrained: yes
+
+loss: 'bce'
+optimizer: 'Adam'
+
+learning_rate: 0.0001
+weight_decay: 0.0001
+momentum: 0.9
+batch_size: 8
+step: 4
+num_epochs: 20
+thresholds: 50
+tta: 1
+
+frames: [2, 4]
+
+train:
+    folder: '/shared/datasets/faces/anti_spoofing/IDRnD/train/'
+
+snapshot:
+    use: no
+    epoch: 4

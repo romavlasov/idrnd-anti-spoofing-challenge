@@ -1,0 +1,4 @@
+{
+ "image": "ksanvatds/idrnd-antispoof",
+"entrypoint": "python3 test.py --config config/se_resnext50_focal.yaml --path-images-csv $PATH_INPUT/meta.csv --path-test-dir $PATH_INPUT --path-submission-csv $PATH_OUTPUT/solution.csv"
+}
