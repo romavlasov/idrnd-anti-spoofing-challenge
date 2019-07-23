@@ -1,4 +1,4 @@
-# ID R&D Anti-spoofing Challenge Solution ([link](https://datasouls.com/c/idrnd-antispoof/leaderboard))
+# ID R&D Anti-spoofing Challenge 1st place Solution ([link](https://datasouls.com/c/idrnd-antispoof/leaderboard))
 
 Train model: <code>python train.py --config 'configuration file'</code>
 
