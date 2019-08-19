@@ -2,6 +2,8 @@
 
 Train model: <code>python train.py --config 'configuration file'</code>
 
+Predict: <code>python test.py --path-images-csv 'annotation' --path-test-dir 'path to images' --path-submission-csv 'submission'</code>
+
 Final solution is based on ensemble of two models: se_resnext50 and densnet121. 
 
 The following configs are used to train this models: [se_resnext50_focal.yaml](https://github.com/romavlasov/idrnd-anti-spoofing-challenge/blob/master/config/se_resnext50_focal.yaml) and [densnet121_focal.yaml](https://github.com/romavlasov/idrnd-anti-spoofing-challenge/blob/master/config/densenet121_focal.yaml)
